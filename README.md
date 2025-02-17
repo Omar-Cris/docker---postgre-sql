@@ -12,7 +12,7 @@ Para asegurarte de que Docker está instalado, ejecuta en la terminal:
 docker --version
 ```
 Si muestra la versión de Docker, significa que está instalado correctamente.
-
+```
 ---
 
 ## **Paso 2: Descargar la imagen de PostgreSQL**
@@ -21,6 +21,7 @@ Ejecuta el siguiente comando para descargar la imagen oficial de PostgreSQL:
 
 ```bash
 docker pull postgres
+```
 ---
 
 ## **Paso 3: Crear y ejecutar un contenedor con PostgreSQL**
@@ -43,7 +44,6 @@ Verifica que el contenedor está corriendo con:
 ```bash
 docker ps
 ```
-![image]("C:\Users\USUARIO\Desktop\Pruebas\Captura de pantalla 2025-02-17 093458.png")
 ---
 
 ## **Paso 4: Conectarse a PostgreSQL dentro del contenedor**
@@ -67,7 +67,6 @@ CREATE TABLE Estudiante (
     fecha_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 ```
-![image]("C:\Users\USUARIO\Desktop\Pruebas\Captura de pantalla 2025-02-17 095429.png")
 Verifica que la tabla fue creada con:
 
 ```sql
@@ -88,8 +87,6 @@ Consulta los datos:
 ```sql
 SELECT * FROM Estudiante;
 ```
-![image]("C:\Users\USUARIO\Desktop\Pruebas\Captura de pantalla 2025-02-17 095516.png")
-
 ---
 
 ## **Paso 7: Salir y detener el contenedor**
