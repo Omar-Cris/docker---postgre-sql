@@ -52,6 +52,7 @@ Ejecuta el siguiente comando para ingresar al contenedor y conectarte a PostgreS
 
 ```bash
 docker exec -it mi_postgres psql -U admin -d mi_base
+```
 ---
 
 ## **Paso 5: Crear la tabla "Estudiante"**
